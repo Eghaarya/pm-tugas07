@@ -1,0 +1,12 @@
+GET https://macrocytic-izayah-unpummeled.ngrok-free.dev/api/kegiatan
+Accept: application/json
+
+###
+POST https://macrocytic-izayah-unpummeled.ngrok-free.dev/api/kegiatan
+Content-Type: application/json
+
+{
+  "nama_kegiatan": "Rapat Koordinasi",
+  "deskripsi": "Pembahasan program kerja",
+  "tanggal": "2025-01-15"
+}
